@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage" : "https://yoLionGit.github.io/projeto-gihub-pucpr",
+  "homepage": "https://yoLionGit.github.io/projeto-gihub-pucpr",
   "scripts": {
     "hello": "node src/hello.js",
     "deploy": "gh-pages -d build",
@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "docker": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

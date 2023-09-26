@@ -15,8 +15,8 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <div className="imgcontainer">
-          <img className="img" src={url} alt="imagem" />
+        <div>
+          <h3>New feature</h3>
         </div>
       </div>
     </>
